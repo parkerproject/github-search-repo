@@ -1,0 +1,79 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.form-control {
+  border-radius: 0;
+  width: 300px;
+}
+
+select {
+  height: 38px;
+  border-radius: 0;
+  width: 300px;
+  background: white;
+}
+
+.wrapper {
+  margin: 20px auto;
+}
+
+.form-check-input {
+  z-index: 1;
+}
+
+@media only screen and (min-width: 600px) {
+  .wrapper {
+    width: 800px;
+  }
+}
+
+.no-border-left {
+  border-left: none !important;
+}
+
+.no-border-top {
+  border-top: none !important;
+}
+
+.search-results {
+  font-size: 13px;
+}
+
+.search-results .title {
+  font-size: 15px;
+  text-align: center;
+}
+
+.item.child-0 {
+  border-top: 1px solid #dee2e6;
+}
+
+.item .border {
+  padding-top: 10px;
+}
+
+.search-btn,
+.search-btn:active,
+.search-btn:hover,
+.search-btn:focus,
+.search-btn:visited {
+  background: #66a9f4 !important;
+  border-color: #66a9f4 !important;
+}
+
+.forked {
+  position: absolute;
+  top: 3px;
+  right: 3px;
+  border-radius: 0;
+  background: #66a9f4 !important;
+  border-color: #66a9f4 !important;
+  font-size: 12px;
+}

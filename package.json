@@ -1,0 +1,33 @@
+{
+  "name": "github-repo-search-system",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "main": "src/index.js",
+  "dependencies": {
+    "bootstrap": "4.3.1",
+    "enzyme": "3.9.0",
+    "enzyme-adapter-react-16": "1.12.1",
+    "react": "16.8.3",
+    "react-dom": "16.8.3",
+    "react-router-dom": "5.0.0",
+    "react-scripts": "2.1.8",
+    "react-select": "2.4.2",
+    "reactstrap": "8.0.0"
+  },
+  "devDependencies": {
+    "typescript": "3.3.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom --verbose=false",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
